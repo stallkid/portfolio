@@ -1,0 +1,21 @@
+.about-content {
+    margin-top: 25px;
+}
+
+.cv-image {
+    height: 170px;
+    width: 170px;
+    margin-bottom: 25px;
+}
+
+.about-info-title {
+    text-align: right;
+}
+
+.about-info-data {
+    text-align: left;
+}
+
+.about-title {
+    text-align: center;
+}
