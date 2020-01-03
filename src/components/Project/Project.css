@@ -2,3 +2,8 @@
     height: 288px;
     width: 288px;
 }
+
+.project-card {
+    width: 290px;
+    margin: auto;
+}

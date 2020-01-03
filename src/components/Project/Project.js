@@ -3,10 +3,11 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import imagePlaceholder from '../../assets/images/image-placeholder.png'
 import Truncate from 'react-truncate';
+import './Project.css';
 
 const Project = props => (
     <div className="project-container">
-        <Card style={{ width: '18rem' }}>
+        <Card className="project-card">
         { 
             props.project.img ? <Card.Img variant="top" src={props.project.img} /> :
             <Card.Img className="image-container" variant="top" src={imagePlaceholder} />
