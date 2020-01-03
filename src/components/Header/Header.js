@@ -19,7 +19,7 @@ class Header extends Component {
         let tabs = null;
         tabs = (
             this.state.tabs.map( tab => {
-                return <NavLink key={tab.id} className="nav-link" to={tab.path}>{tab.name}</NavLink>
+                return <NavLink exact={true} key={tab.id} className="nav-link" to={tab.path}>{tab.name}</NavLink>
             })
         );
 
