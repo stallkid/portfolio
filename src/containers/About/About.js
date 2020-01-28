@@ -52,7 +52,7 @@ class About extends Component {
                 <Row className="justify-content-sm-center">
                     <Col md="auto">
                         <div className="cv-image">
-                            <Image src="images/person.jpg" thumbnail />
+                            <Image src="images/person2.jfif" thumbnail />
                         </div>
                     </Col>
                 </Row>
