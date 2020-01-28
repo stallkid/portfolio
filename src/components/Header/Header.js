@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 
 import {Navbar, Nav} from 'react-bootstrap';
 import './Header.css';
-import { render } from '@testing-library/react';
 
 class Header extends Component {
 
