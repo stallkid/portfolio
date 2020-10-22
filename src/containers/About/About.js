@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Image, Jumbotron } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 
 import './About.css';
 import Personal from '../../components/Personal/Personal';
