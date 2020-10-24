@@ -9,7 +9,7 @@ class Content extends Component {
     state = {
         projects: [
             { id: 1, img: "images/node-chat.PNG", title: "Chat - Node.js", description: "Chat done in Node.js With Websockets", link: "http://nca-751.mybluemix.net", source: "https://github.com/stallkid/node-chat" },
-            // { id: 2, img: "", title: "To Do List - Angular App", description: "To Do List developed in Angular", link: "http://symbolic_link.com", source: "http://github.com" },
+            { id: 2, img: "images/reactjs-chess.png", title: "React.js Chess", description: "Chess Board done in React.js", link: "https://reactjs-chess.netlify.app/", source: "https://github.com/stallkid/reactjs-chess" },
             // { id: 3, img: "", title: "To Do List - Angular App", description: "To Do List developed in Angular", link: "http://symbolic_link.com", source: "http://github.com" },
             // { id: 4, img: "", title: "To Do List - Angular App", description: "To Do List developed in Angular", link: "http://symbolic_link.com", source: "http://github.com" },
             // { id: 5, img: "", title: "To Do List - Angular App", description: "To Do List developed in Angular", link: "http://symbolic_link.com", source: "http://github.com" },

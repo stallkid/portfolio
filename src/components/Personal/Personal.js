@@ -24,13 +24,11 @@ class Personal extends Component {
                         <Card.Title>{this.props.title}</Card.Title>
                     </Card.Header>
                     <Card.Body>
-                        <Card.Text>
                         <table className="personal-table">
                             <tbody>
                                 {data}
                             </tbody>
                         </table>
-                        </Card.Text>
                     </Card.Body>
                 </Card>
             </div>
