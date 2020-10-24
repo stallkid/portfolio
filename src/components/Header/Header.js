@@ -9,7 +9,8 @@ class Header extends Component {
     state = {
         tabs: [
             { id: 1, name: "Projects", path: "/" },
-            { id: 2, name: "About Me", path: "/about" }
+            { id: 2, name: "Certificates", path: "/certificates" },
+            { id: 3, name: "About Me", path: "/about" }
         ]
     };
 
