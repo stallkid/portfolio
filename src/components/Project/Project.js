@@ -8,10 +8,16 @@ import './Project.css';
 const Project = props => (
     <div className="project-container">
         <Card className="project-card">
-        { 
-            props.project.img ? <Card.Img variant="top" src={props.project.img} /> :
-            <Card.Img className="image-container" variant="top" src={imagePlaceholder} />
-        }
+            <div className={props.project.inProgress ? 'in-progress' : ''}>
+                {
+                    props.project.inProgress ? <span>In Progress</span> :
+                    <span></span>
+                }
+                {
+                    props.project.img ? <Card.Img variant="top" src={props.project.img} /> :
+                    <Card.Img className="image-container" variant="top" src={imagePlaceholder} />
+                }
+            </div>
         <Card.Body>
         <Card.Title>{props.project.title}</Card.Title>
             <Card.Text>

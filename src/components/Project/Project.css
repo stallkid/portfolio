@@ -7,3 +7,19 @@
     width: 290px;
     margin: auto;
 }
+
+.in-progress {
+    position: relative;
+    margin: auto;
+}
+
+.in-progress span {
+    position: absolute;
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(255, 0, 0, 0.6);
+    width: 100%;
+    margin: 55px auto;
+    text-align: center;
+    transform: rotate(-45deg);
+}
