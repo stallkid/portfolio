@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import './Content.css';
+import './Projects.scss';
 import { Container, Row, Col } from 'react-bootstrap';
 import Project from '../../components/Project/Project';
 
-class Content extends Component {
+class Projects extends Component {
 
     state = {
         projects: [
@@ -42,4 +42,4 @@ class Content extends Component {
     }
 }
 
-export default Content;
+export default Projects;

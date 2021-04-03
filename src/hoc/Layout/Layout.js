@@ -2,7 +2,7 @@ import React from 'react';
 
 import Wrap from '../Wrap/Wrap';
 import Header from '../../components/Header/Header';
-import classes from './Layout.css';
+import classes from './Layout.scss';
 
 const Layout = props => {
     return (

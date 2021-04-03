@@ -3,7 +3,7 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import imagePlaceholder from '../../assets/images/image-placeholder.png'
 import Truncate from 'react-truncate';
-import './Project.css';
+import './Project.scss';
 
 const Project = props => (
     <div className="project-container">

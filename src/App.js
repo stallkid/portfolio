@@ -2,12 +2,12 @@ import React, {Suspense} from 'react';
 import { Route, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import './App.css';
+import './App.scss';
 import Certificates from './containers/Certificates/Certificates';
 import Layout from './hoc/Layout/Layout';
 
-const Content = React.lazy(() => {
-  return import('./containers/Content/Content');
+const Projects = React.lazy(() => {
+  return import('./containers/Content/Projects');
 });
 
 const About = React.lazy(() => {
@@ -18,7 +18,7 @@ const App = props => {
 
   let routes = (
     <Switch>
-      <Route exact path="/" render={props => <Content {...props} />} />
+      <Route exact path="/" render={props => <Projects {...props} />} />
       <Route path="/certificates" render={props => <Certificates {...props} />} />
       <Route path="/about" render={props => <About {...props} />} />
     </Switch>

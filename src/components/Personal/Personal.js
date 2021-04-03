@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './Personal.css'
+import './Personal.scss'
 import { Card } from 'react-bootstrap';
 
 class Personal extends Component {

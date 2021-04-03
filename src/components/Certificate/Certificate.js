@@ -3,7 +3,7 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import imagePlaceholder from '../../assets/images/image-placeholder.png'
 import Truncate from 'react-truncate';
-import './Certificate.css';
+import './Certificate.scss';
 
 const Certificate = props => (
     <div className="certificate-container">

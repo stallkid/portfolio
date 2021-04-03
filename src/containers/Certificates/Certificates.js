@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './Certificates.css';
+import './Certificates.scss';
 import { Container, Row, Col } from 'react-bootstrap';
 import Certificate from '../../components/Certificate/Certificate';
 
