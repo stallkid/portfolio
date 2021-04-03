@@ -1,7 +1,8 @@
 import React from 'react';
 
 import Wrap from '../Wrap/Wrap';
-import Header from '../../components/Header/Header';
+import Header from '../../hoc/Layout/Header/Header';
+import Footer from '../../hoc/Layout/Footer/Footer';
 import  './Layout.scss';
 
 const Layout = props => {
@@ -11,6 +12,7 @@ const Layout = props => {
                 <Header></Header>
             </header>
             <main className='Content'>{props.children}</main>
+            <Footer></Footer>
         </Wrap>
     );
 }
