@@ -1,4 +1,12 @@
+.app-header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
 .Content {
+    margin-top: 55px;
     padding-bottom: 25px;
     height: calc(100% - 56px);
     background-color:rgba(200, 200, 200, 0.2);

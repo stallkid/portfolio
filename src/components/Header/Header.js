@@ -24,17 +24,15 @@ class Header extends Component {
         );
 
         return (
-            <header className="app-header">
-                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="header">
-                    <Navbar.Brand href="#home">Portfolios</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="mr-auto">
-                            {tabs}
-                        </Nav>
-                    </Navbar.Collapse>
-                </Navbar>
-            </header>
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="header">
+                <Navbar.Brand href="#home">Portfolios</Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="mr-auto">
+                        {tabs}
+                    </Nav>
+                </Navbar.Collapse>
+            </Navbar>
         );
     }
 }

@@ -7,7 +7,7 @@ import  './Layout.scss';
 const Layout = props => {
     return (
         <Wrap>
-            <header className="App-header">
+            <header className="app-header">
                 <Header></Header>
             </header>
             <main className='Content'>{props.children}</main>
