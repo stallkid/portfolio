@@ -7,7 +7,7 @@ import Certificates from './containers/Certificates/Certificates';
 import Layout from './hoc/Layout/Layout';
 
 const Projects = React.lazy(() => {
-  return import('./containers/Content/Projects');
+  return import('./containers/Projects/Projects');
 });
 
 const About = React.lazy(() => {

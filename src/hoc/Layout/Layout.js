@@ -2,7 +2,7 @@ import React from 'react';
 
 import Wrap from '../Wrap/Wrap';
 import Header from '../../components/Header/Header';
-import classes from './Layout.scss';
+import  './Layout.scss';
 
 const Layout = props => {
     return (
@@ -10,7 +10,7 @@ const Layout = props => {
             <header className="App-header">
                 <Header></Header>
             </header>
-            <main className={classes.Content}>{props.children}</main>
+            <main className='Content'>{props.children}</main>
         </Wrap>
     );
 }

@@ -6,6 +6,12 @@
 .project-card {
     width: 290px;
     margin: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all .5s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
 }
 
 .in-progress {
